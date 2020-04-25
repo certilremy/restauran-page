@@ -1,0 +1,24 @@
+{
+  "name": "restauran-page",
+  "version": "1.0.0",
+  "description": "restaurant pages in java script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/certilremy/restauran-page.git"
+  },
+  "author": "Certil Remy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/certilremy/restauran-page/issues"
+  },
+  "homepage": "https://github.com/certilremy/restauran-page#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
