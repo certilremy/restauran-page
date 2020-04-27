@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+nav ul{
+margin-top: 60px;
+display: flex;
+text-align: center;
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+justify-content: center;
+}
+
+ul li {
+    text-align: center;
+    margin-right: 20px;
+    list-style: none;
+    background-color: rgb(105, 105, 105);
+    padding: 10PX 10PX 10PX 10PX;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid rgb(105, 105, 105);
+    justify-content: center;
+    text-align: center;
+}
+
+main h1{
+    text-transform: uppercase;
+}
