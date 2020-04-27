@@ -31,3 +31,9 @@ main{
 main h1{
     text-transform: uppercase;
 }
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
