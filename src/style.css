@@ -18,6 +18,7 @@ ul li {
     list-style: none;
     background-color: rgb(105, 105, 105);
     padding: 10PX 10PX 10PX 10PX;
+    cursor: pointer;
 }
 
 main{
