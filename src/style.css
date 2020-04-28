@@ -38,3 +38,16 @@ footer {
     font-size: 12px;
     text-align: center;
 }
+
+.food-list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.single-food{
+    max-width: 200px;
+    max-height: 400px;
+    text-align: center;
+    background-color: rgb(105, 105, 105);
+}
+

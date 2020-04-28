@@ -1,6 +1,9 @@
 /* eslint-disable import/no-cycle */
 import loadHome from './home';
 import LoadContact from './contact';
+import foodIgm1 from './menu1.jpg';
+import foodImg2 from './menu2.jpg';
+import foodImg3 from './menu3.jpg';
 
 const loadMenu = () => {
   const container = document.getElementById('content');
@@ -15,13 +18,29 @@ const loadMenu = () => {
   
   <main>
   <h1>menu</h1>
-  <img id="chef" alt="chef" />
-  <p>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-    obcaecati odio quidem doloremque similique, est delectus recusandae,
-    deserunt facere minima sequi temporibus quam cupiditate excepturi
-    consequuntur ad doloribus commodi officiis?
-  </p>
+  <div class="food-list">
+    <div class="single-food">
+      <img id="food1" alt="">
+      <h2>Food name</h2>
+
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <div class="single-food">
+     <img id="food2" alt="">
+     <h2>Food name</h2>
+
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+   </div>
+
+   <div class="single-food">
+     <img id="food3" alt="">
+     <h2>Food name</h2>
+
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+   </div>
+  </div>
+
   </main>
   <footer>Design by Certil Remy</footer>
   </div>`;
