@@ -48,7 +48,13 @@ const loadMenu = () => {
   document.getElementById('menu').style.backgroundColor = '#242424';
   const contact = document.getElementById('contact');
   const home = document.getElementById('home');
+  const food1 = document.getElementById('food1');
+  const food2 = document.getElementById('food2');
+  const food3 = document.getElementById('food3');
 
+  food1.src = foodIgm1;
+  food2.src = foodImg2;
+  food3.src = foodImg3;
   home.addEventListener('click', () => {
     loadHome();
   });

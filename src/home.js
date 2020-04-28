@@ -16,7 +16,7 @@ const loadHome = () => {
 </nav>
 
 <main>
-<h1>Welcome to restaurant Certil</h1>
+<h1>Welcome to Certil Restaurant</h1>
 <img id="chef" alt="chef" />
 <p>
   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
