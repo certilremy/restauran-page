@@ -50,4 +50,4 @@ To start the server you don't need other special server you can go to the projec
 ## Contribution 
 
 If you want to contribute to this project you're welcome .
-Follow the github code of conduite fork this repot and open your pull request. 
+Follow the github code of conduct fork this repo and open your pull request. 
